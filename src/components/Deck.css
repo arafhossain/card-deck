@@ -1,5 +1,4 @@
 .Deck {
-  background-color: #009900;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,15 +11,15 @@
   display: inline;
 }
 
-.drawCardButton {
-  font-family: 'Snell Roundhand', cursive;
-  font-size: 1em;
-}
 
-.Deck img {
+.spadeIcon {
   height: 30px;
   width: 30px;
   display: inline;
   margin: 0 5px;
   padding-top: 10px;
+}
+
+.cardArea {
+  margin-top: 80px;
 }
