@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Deck.css'
 
 class Deck extends Component {
   constructor(props){
@@ -7,8 +8,8 @@ class Deck extends Component {
   }
   render(){
     return (
-      <div>
-        <h1>Card Deck!</h1>
+      <div className="Deck">
+        <h1 className="Header">♤ Flip a card! ♤</h1>
         <h3>Deck here</h3>  
       </div>
     )

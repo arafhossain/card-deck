@@ -1,0 +1,12 @@
+.Deck {
+  background-color: #009900;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Header {
+  font-family: 'Snell Roundhand', cursive;
+  color: white;
+}
