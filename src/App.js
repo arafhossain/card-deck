@@ -4,8 +4,8 @@ import './components/Deck.css'
 
 function App() {
   return (
-    <div className="App">
-     <Deck className="Deck"/>
+    <div>
+     <Deck />
     </div>
   );
 }
